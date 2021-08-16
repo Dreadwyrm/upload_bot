@@ -26,15 +26,15 @@ import math
 import asyncio
 from pyrogram import Client
 
-api_id = 1887341
-api_hash = 'cd0583ea91ea3d2d800b585157f983bb'
-SRING_SESSION="BQAL8eG45-ot_UNcWb36R5Es44pMeFsEJya4Reoi3OblTvnZotFK6Jm_ZcekohbHQN2v2s1w8JSHEqPu6t1RS6IfwI5sfxqgrml-bCcy9_i1UoW8HjBJMw0TbSpjoCt2kM1GukLLzuCGomi_LGlHM3CFu2gyTc6PySngFMlC9MKDXMznSA1ihnMNyIDDy4ZwVLF8i2DeGsKcNlVglPE8VQoiV2BeflsZxgMpkp9pGqq502Rau61N_ZJU019XZn1Sn4_CDdcj4hqEheGYMa0MokVx8Oc-mBexg3YI7e2ajHTsvPtweP4JpHOqJDEUCmBrqpLw8wdVQUsZuJJO1AChsHVqaudQlQE"
+api_id = 1346694
+api_hash = 'f05a88ec0d880cb9fd97073f99468041'
+SRING_SESSION="1BVtsOJcBu4MeK2lhsvoZ6fqqORsNN95BNQRgq9mCxrj0cjyPzMC9_7vJFhHpbO6WilpSZ62F9AMxQ-2EeMIX2fI9yGNrZH_4oIWXlVaArNx4ZvBVnp6MT4zrnFSUNRU4siaQbhRneI7Y3uEU_gjGT4x6LglRteuSF9nGdJkGNs5JNOyygiU93gqLtLFhO2tA8S6vfKhJnCkwcu2wyl4HWy_4tABI4uYI3hNADH7lz4lGKcP1ctwm_wX4bIKU5nBsQng8cV_GSJ-UE5NN4nORbOkVRoCYh3SvbOTsW7MXJ608g4hQrot10s5FMdsFFQ96uShkaRyz2CDjVrY6H7BBpcvKiVibhzQ="
 client = Client(
     SRING_SESSION,
     api_id=api_id,
     api_hash=api_hash
 )
-chat_id = os.environ.get("chat_id", int(-584989134))
+chat_id = os.environ.get("chat_id", int(-1001286726171))
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = [
